@@ -1,0 +1,40 @@
+.widgets {
+  flex: 0.25;
+  border-left: 1px solid var(--twitter-background);
+  padding-left: 20px;
+}
+
+.widgets_search_box {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 33px;
+  font-size: 20px;
+  color: gray;
+}
+
+.widgets_search_box > input {
+  background-color: transparent;
+  height: 100%;
+  flex: 1;
+  border: none;
+  outline-style: none;
+  font-size: 1.3rem;
+}
+
+
+
+.widgets_container {
+  padding: 20px;
+  background-color: var(--twitter-background);
+  border-radius: 20px;
+}
+
+.widgets_container > h2 {
+  padding-left: 10px;
+  padding-bottom: 20px;
+}

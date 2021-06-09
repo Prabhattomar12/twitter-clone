@@ -1,0 +1,55 @@
+.post {
+    display: flex;
+    padding: 20px;
+  margin-bottom: 40px;
+}
+
+.post_avatar {
+    margin: 20px;
+}
+
+.post_body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.post_header {
+    padding-bottom: 20px;
+}
+
+.post_header_userInfo {
+ display: flex;
+ align-items: center;
+ margin-bottom: 15px;
+}
+
+.post_header_userInfo > h3 {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.post_header_userInfo > span > .MuiSvgIcon-root {
+       font-size: 20px;  
+       margin: 0px 10px;  
+       color: var(--twitter-color);   
+}
+
+.post_header > p {
+    font-weight: 450;
+    font-size: 18px;
+}
+
+.post_body > img {
+     border-radius: 30px;
+     height: 400px;
+     width: 550px;
+    }
+
+.post_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: gray;
+}

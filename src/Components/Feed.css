@@ -1,0 +1,16 @@
+.feed {
+  flex: 0.5;
+  /* border: 1px solid var(--twitter-background); */
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

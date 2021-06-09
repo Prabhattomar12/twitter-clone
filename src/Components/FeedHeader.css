@@ -1,0 +1,15 @@
+.feedHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid var(--twitter-background);
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.feedHeader_icon {
+  color: var(--twitter-color);
+  font-size: 2rem !important;
+}
